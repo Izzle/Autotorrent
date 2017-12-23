@@ -3,11 +3,15 @@ import os
 
 def creation(links='TEMP.txt'):
 
-    torrents = open('torrents.txt', 'r').readlines()
+    f = open('torrents.txt', 'r').readlines()
     torr_dir_name = None
+    torrents = []
 
     create_folder()
     # create_folder('TORRENT_NAME_HERE')
+    for item in f:
+        torrents.append(item)
+     
     
     # OUTLINE
     #

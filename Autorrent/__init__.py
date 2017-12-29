@@ -11,7 +11,15 @@ def creation(links='TEMP.txt'):
     # create_folder('TORRENT_NAME_HERE')
     for item in f:
         torrents.append(item)
-     
+    
+    # PARSE TORRENTS HERE
+    # Need info such as: Name, date, quality, author, etc
+    torrent_names = []
+
+    for item in torrent_names:
+        # create_folder(item)
+        pass
+
     
     # OUTLINE
     #
